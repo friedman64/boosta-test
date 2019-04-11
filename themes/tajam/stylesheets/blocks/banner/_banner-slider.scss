@@ -1,0 +1,71 @@
+.banner-slider {
+  position: relative;
+  height: 380px;
+
+  .slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: flex;
+    transform: translateX(-50%);
+
+    li {
+      width: 10px;
+      height: 10px;
+      margin: 0 2.5px;
+      border-radius: 100%;
+      border: 1px solid $grey;
+      cursor: pointer;
+      box-sizing: border-box;
+
+      &.slick-active {
+        border-color: $green;
+        background-color: $green;
+      }
+
+      button {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        font-size: 0;
+        color: transparent;
+      }
+    }
+  }
+
+  .banner-slide {
+    padding-bottom: 30px;
+    outline: none;
+    text-align: center;
+
+    &__title {
+      position: relative;
+      padding-bottom: 25px;
+      margin-bottom: 25px;
+      color: $white;
+
+      &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 50px;
+        height: 1px;
+        background-color: $green;
+        transform: translateX(-50%);
+      }
+    }
+
+    &__text {
+      max-width: 764px;
+      margin-right: auto;
+      margin-bottom: 56px;
+      margin-left: auto;
+      color: $white;
+
+      @media (max-width: 420px) {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+@import "variables";
+@import "fonts";
+@import "typography";
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+}
+
+body, button, ul, li, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+a {
+    //color: $text-main-color;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+//h2 {
+//	position: relative;
+//	display: block;
+//	text-align: center;
+//
+//
+//
+//	&:before {
+//		content: '';
+//		position: absolute;
+//		top: 50%;
+//		left: 60px;
+//		width: 60vw;
+//		height: 2px;
+//		background-color: #3e4d54;
+//	}
+//
+//	&:after {
+//		content: '';
+//		position: absolute;
+//		top: 50%;
+//		right: 60px;
+//		width: 60vw;
+//		height: 2px;
+//		background-color: #3e4d54;
+//	}
+//
+//	span {
+//		position: relative;
+//		z-index: 2;
+//		padding: 0 15px;
+//		background-color: #fff;
+//	}
+//}
+
+
+

@@ -1,0 +1,11 @@
+.tooth-bottom {
+  background-image: url("../images/home/bottom-tooth.png");
+  background-repeat: no-repeat;
+  background-position: 160px 0;
+}
+
+.tooth-top {
+  background-image: url("../images/home/top-tooth.png");
+  background-repeat: no-repeat;
+  background-position: 160px 100%;
+}

@@ -1,0 +1,47 @@
+.header {
+  position: relative;
+  z-index: 1;
+  padding: 15px 0;
+
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 130px;
+    height: 50px;
+  }
+
+  &__menu {
+
+    ul {
+      display: flex;
+      align-items: center;
+
+      li {
+
+        a {
+          color: $white;
+          transition: color 0.2s ease-in;
+
+          &:hover {
+            color: $green;
+          }
+        }
+
+        &.current-menu-item {
+
+          a {
+            color: $green;
+          }
+        }
+
+        &:not(:last-child) {
+          margin-right: 25px;
+        }
+      }
+    }
+  }
+}

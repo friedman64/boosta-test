@@ -1,0 +1,139 @@
+//typography: base styles for fonts, p, a, standard h1, h2 ...
+
+body {
+    font-family: $roboto;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    font-family: $hammersmith;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-family: $playfair;
+
+    h3 {
+        font-size: 22px;
+        letter-spacing: 0.5px;
+    }
+
+    span {
+        font-size: 14px;
+        letter-spacing: 0.75px;
+    }
+}
+
+.header__menu {
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+
+    a {
+        letter-spacing: 0.1px;
+    }
+}
+
+.banner-slide {
+
+    &__title {
+        font-family: $playfair;
+        font-size: 32px;
+        font-weight: 900;
+        letter-spacing: 0.2px;
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.7px;
+    }
+}
+
+.story {
+
+    &__title {
+        font-family: $playfair;
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.3px;
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.4px;
+    }
+}
+
+.video__play {
+
+    span {
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+}
+
+.expertise-block {
+
+    h4 {
+        font-size: 14px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+    }
+}
+
+.footer {
+
+    &__title {
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 0.4px;
+    }
+
+    &__location {
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 0.5px;
+    }
+
+    &__phone {
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 0.5px;
+    }
+
+    &__menu {
+
+        a {
+            font-size: 14px;
+            line-height: 26px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+    }
+
+    &__copyright {
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 0.5px;
+        font-weight: normal;
+    }
+}
